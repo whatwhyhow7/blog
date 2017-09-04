@@ -27,7 +27,7 @@ author:
   email:             <mail@domain.tld>
 
 # Fallback image and color
-image:               /assets/img/nap.jpg
+image:               /blog/assets/img/nap.jpg
 color:               '#4f86aa'
 
 # The font used for headings. Expects a string that is a valid CSS font-family value.

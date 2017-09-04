@@ -46,7 +46,7 @@ Hydejack allows you to choose the background image of the sidebar, as well as th
 
 It is recommended that you provide fallback values in `_config.yml`, should no other rule apply:
 
-    image: /assets/img/nap.jpg
+    image: /blog/assets/img/nap.jpg
     color: '#A85641'
 
 **NOTE**: It is recommended that you use a blurred image in order for the text to remain readable. If you save a blurred image as JPG, it will also drastically reduce its file size.
