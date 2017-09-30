@@ -105,7 +105,7 @@ google_fonts: "Roboto+Slab:700|Noto+Serif:400,400i,700,700i"
 If you were relying on the default setting for the background image, add the following to `_config.yml`:
 
 ~~~yml
-image: /blog/assets/img/nap.jpg
+image: /hydejack/assets/img/nap.jpg
 ~~~
 
 Note that you have to replace `/hydejack` with your `baseurl`.
