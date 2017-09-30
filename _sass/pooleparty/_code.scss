@@ -1,8 +1,3 @@
-// Code
-//
-// Inline and block-level code snippets. Includes tweaks to syntax highlighted
-// snippets from Pygments/Rouge and Gist embeds.
-
 code, pre {
   font-family: $code-font-family;
 }
@@ -19,11 +14,9 @@ pre {
   display: block;
   line-height: 1.1;
 
-  /* Prevent code linebreaks and allow side-scrolling (much better readability on mobile) */
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
 
-  /* Make code same width as regular text, and scroll the full page width on mobile */
   @include pre();
 
   backface-visibility: hidden; // wat?
@@ -31,7 +24,6 @@ pre {
 
 pre code {
   padding: 0;
-  // font-size: .75em;
   color: inherit;
   background-color: transparent;
 }
@@ -58,25 +50,3 @@ figure, .figure {
 .highlight {
   margin-bottom: 1rem;
 }
-
-// Gist via GitHub Pages
-// .gist .gist-file {
-//   font-family: Menlo, Monaco, "Courier New", monospace !important;
-// }
-// .gist .markdown-body {
-//   padding: 15px;
-// }
-// .gist pre {
-//   padding: 0;
-//   background-color: transparent;
-// }
-// .gist .gist-file .gist-data {
-//   font-size: .8rem !important;
-//   line-height: 1.4;
-// }
-// .gist code {
-//   padding: 0;
-//   color: inherit;
-//   background-color: transparent;
-//   border-radius: 0;
-// }

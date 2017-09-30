@@ -21,7 +21,7 @@
   color: $gray!important;
 
   &::after {
-    content: "\2630"; // ☰
+    content: "\2630";
   }
 
   @media screen and (min-width: $break-point-2) {
@@ -33,24 +33,12 @@
       position: static;
     }
   }
-
-  // @media print {
-  //   display: none;
-  // }
 }
 
 .animation-main {
-  // opacity: 0;
-  // will-change: opacity;
   pointer-events: none;
 }
 
 .loading {
   display: none;
-  // position: absolute;
-  // top: 0;
-  // right: 0;
-  // padding: 3 * 1.75rem 3 * 1.5rem;
-  // transform-origin: top right;
-  // transform: scale(0.33);
 }
