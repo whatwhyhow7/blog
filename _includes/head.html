@@ -100,9 +100,7 @@ We want to avoid building the URL dynamically in JS, because it depends on your 
 ------------------------{% endcomment %}
 <!--[if gt IE 8]><!---->
 <style>
-  {% capture include_to_scssify %}
-  {% include styles/inline.scss %}
-  {% endcapture %}
+  {% capture include_to_scssify %}{% include styles/inline.scss %}{% endcapture %}
   {{ include_to_scssify | scssify }}
 </style>
 
