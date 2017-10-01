@@ -1,7 +1,7 @@
 ---
 layout: list
-title: Back - End
-slug: hydejack
+title: Back-End
+slug: Back-End
 menu: true
 order: 2
 description: >

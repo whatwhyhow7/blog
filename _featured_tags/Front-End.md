@@ -1,7 +1,7 @@
 ---
 layout: list
-title: Front - End
-slug: hyde
+title: Front-End
+slug: Front-End
 menu: true
 order: 1
 description: >

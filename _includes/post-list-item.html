@@ -5,7 +5,7 @@
   <a href="{{ post.url | relative_url }}" data-flip="title">
     <span>{{ post.title }}</span>
   </a>
-  <small><time datetime="{{ post.date | date_to_xmlschema }}">
-    {{ post.date | date:format }}
-  </time></small>
+  <small>
+    <time datetime="{{ post.date | date_to_xmlschema }}">&nbsp;&nbsp;&nbsp;{{ post.date | date:format }}</time>
+  </small>
 </li>
