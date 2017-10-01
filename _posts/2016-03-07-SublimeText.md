@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Sublime Text
-tags: [Tools]
+tags: [Dev-Tool]
 description: >
   这里写摘要。
 ---

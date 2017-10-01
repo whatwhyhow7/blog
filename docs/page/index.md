@@ -1,8 +1,6 @@
 ---
 layout: page
 title: Documentation
-menu: true
-order: 5
 redirect_from:
   - /docs/latest/
   - /docs/
@@ -42,5 +40,5 @@ Should you discover a mistake in the docs (or a bug in general) feel free to [op
 [scripts]: scripts.md
 [build]: build.md
 [advanced]: advanced.md
-[LICENSE]: ../../LICENSE.md
-[NOTICE]: ../../NOTICE.md
+[LICENSE]: LICENSE.md
+[NOTICE]: NOTICE.md

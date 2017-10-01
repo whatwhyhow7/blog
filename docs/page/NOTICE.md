@@ -26,7 +26,7 @@ MIT licensed with the following copyright:
 
 > Copyright (c) 2013 Mark Otto.
 
-Find a copy of the [MIT license](licenses/MIT.md)
+Find a copy of the [MIT license](../../licenses/MIT.md)
 as part of this distribution.
 
 ### y-drawer
@@ -35,7 +35,7 @@ MIT licensed with the following copyright:
 
 > Copyright (c) 2017 Florian Klampfer
 
-Find a copy of the [MIT license](licenses/MIT.md)
+Find a copy of the [MIT license](../../licenses/MIT.md)
 as part of this distribution.
 
 ### y-push-state
@@ -44,7 +44,7 @@ MIT licensed with the following copyright:
 
 > Copyright (c) 2017 Florian Klampfer
 
-Find a copy of the [MIT license](licenses/MIT.md)
+Find a copy of the [MIT license](../../licenses/MIT.md)
 as part of this distribution.
 
 ### IcoMoon Icons Free Version
@@ -68,7 +68,7 @@ Apache-2.0 licensed with the following copyright;
 No substantial changes to the software were made.
 No `NOTICE` file was provided.
 
-Find a copy of the [Apache License](licenses/Apache-2.0.md)
+Find a copy of the [Apache License](../../licenses/Apache-2.0.md)
 as part of this distribution.
 
 ### KaTeX
@@ -77,7 +77,7 @@ MIT licensed with the following copyright:
 
 > Copyright (c) 2015 Khan Academy
 
-Find a copy of the [MIT license](licenses/MIT.md)
+Find a copy of the [MIT license](../../licenses/MIT.md)
 as part of this distribution.
 
 ### webfontloader
@@ -89,7 +89,7 @@ Apache-2.0 licensed with the following copyright;
 No substantial changes to the software were made.
 No `NOTICE` file was provided.
 
-Find a copy of the [Apache License](licenses/Apache-2.0.md)
+Find a copy of the [Apache License](../../licenses/Apache-2.0.md)
 as part of this distribution.
 
 ### corejs
@@ -98,7 +98,7 @@ MIT licensed with the following copyright:
 
 > Copyright (c) 2014-2016 Denis Pushkarev
 
-Find a copy of the [MIT license](licenses/MIT.md)
+Find a copy of the [MIT license](../../licenses/MIT.md)
 as part of this distribution.
 
 ### color
@@ -107,7 +107,7 @@ MIT licensed with the following copyright:
 
 > Copyright (c) 2012 Heather Arthur
 
-Find a copy of the [MIT license](licenses/MIT.md)
+Find a copy of the [MIT license](../../licenses/MIT.md)
 as part of this distribution.
 
 ### elem-dataset
@@ -116,7 +116,7 @@ MIT licensed with the following copyright:
 
 > Copyright (c) Alex Cross (alexcross.io)
 
-Find a copy of the [MIT license](licenses/MIT.md)
+Find a copy of the [MIT license](../../licenses/MIT.md)
 as part of this distribution.
 
 ### web-animations-js
@@ -128,7 +128,7 @@ Apache-2.0 licensed with the following copyright;
 No substantial changes to the software were made.
 No `NOTICE` file was provided.
 
-Find a copy of the [Apache License](licenses/Apache-2.0.md)
+Find a copy of the [Apache License](../../licenses/Apache-2.0.md)
 as part of this distribution.
 
 ### Modernizr
@@ -137,7 +137,7 @@ MIT licensed with the following copyright:
 
 > Copyright (c) 2009-2017
 
-Find a copy of the [MIT license](licenses/MIT.md)
+Find a copy of the [MIT license](../../licenses/MIT.md)
 as part of this distribution.
 
 ### compress
@@ -146,7 +146,7 @@ MIT licensed with the following copyright:
 
 > Copyright (c) 2014 Anatol Broder
 
-Find a copy of the [MIT license](licenses/MIT.md)
+Find a copy of the [MIT license](../../licenses/MIT.md)
 as part of this distribution.
 
 ### html5shiv
@@ -155,7 +155,7 @@ which is MIT licensed with the following copyright
 
 > Copyright (c) 2014 Alexander Farkas (aFarkas).
 
-Find a copy of the [MIT license](licenses/MIT.md)
+Find a copy of the [MIT license](../../licenses/MIT.md)
 as part of this distribution.
 
 ### loadCSS
@@ -164,7 +164,7 @@ MIT licensed with the following copyright:
 
 > Copyright (c) @scottjehl, 2016 Filament Group
 
-Find a copy of the [MIT license](licenses/MIT.md)
+Find a copy of the [MIT license](../../licenses/MIT.md)
 as part of this distribution.
 
 ### ratchet
@@ -173,7 +173,7 @@ which is MIT licensed with the following copyright
 
 > Copyright (c) 2015 connors and other contributors
 
-Find a copy of the [MIT license](licenses/MIT.md)
+Find a copy of the [MIT license](../../licenses/MIT.md)
 as part of this distribution.
 
 ### Swipe
@@ -182,7 +182,7 @@ which is MIT licensed with the following copyright
 
 > Copyright (c) 2013 Brad Birdsall
 
-Find a copy of the [MIT license](licenses/MIT.md)
+Find a copy of the [MIT license](../../licenses/MIT.md)
 as part of this distribution.
 
 ### smoothState
@@ -191,7 +191,7 @@ which is MIT licensed with the following copyright
 
 > Copyright (c) 2014 Miguel Angel Perez
 
-Find a copy of the [MIT license](licenses/MIT.md)
+Find a copy of the [MIT license](../../licenses/MIT.md)
 as part of this distribution.
 
 ### underscore.js
@@ -201,7 +201,7 @@ MIT licensed with the following copyright:
 > Copyright (c) 2009-2015 Jeremy Ashkenas, DocumentCloud and Investigative
 Reporters & Editors
 
-Find a copy of the [MIT license](licenses/MIT.md)
+Find a copy of the [MIT license](../../licenses/MIT.md)
 as part of this distribution.
 
 ### y-component
@@ -210,5 +210,5 @@ which is MIT licensed with the following copyright
 
 > Copyright (c) 2017 Florian Klampfer
 
-Find a copy of the [MIT license](licenses/MIT.md)
+Find a copy of the [MIT license](../../licenses/MIT.md)
 as part of this distribution.

@@ -1,15 +1,3 @@
-~~~
- __  __                __                                     __
-/\ \/\ \              /\ \             __                    /\ \
-\ \ \_\ \   __  __    \_\ \      __   /\_\      __       ___ \ \ \/'\
- \ \  _  \ /\ \/\ \   /'_` \   /'__`\ \/\ \   /'__`\    /'___\\ \ , <
-  \ \ \ \ \\ \ \_\ \ /\ \L\ \ /\  __/  \ \ \ /\ \L\.\_ /\ \__/ \ \ \\`\
-   \ \_\ \_\\/`____ \\ \___,_\\ \____\ _\ \ \\ \__/.\_\\ \____\ \ \_\ \_\
-    \/_/\/_/ `/___/> \\/__,_ / \/____//\ \_\ \\/__/\/_/ \/____/  \/_/\/_/
-                /\___/                \ \____/
-                \/__/                  \/___/
-~~~
-
 # Hydejack
 Hydejack is a cutting-edge Jekyll theme that combines the best of static sites and modern web apps.
 It features a suite of JavaScript that makes the page feel like an app, without sacrificing backwards-compatibility,
@@ -79,9 +67,9 @@ usage of 3rd party plugins.
 [resume]: https://qwtel.com/hydejack/resume/
 [welcome]: https://qwtel.com/hydejack/
 
-[license]: LICENSE.md
+[license]: docs/page/LICENSE.md
 [pro]: licenses/PRO-license.md
-[docs]: docs/6.6.1/index.md
+[docs]: docs/page/index.md
 
 [download]: https://github.com/qwtel/hydejack/releases
 [gem]: https://rubygems.org/gems/jekyll-theme-hydejack

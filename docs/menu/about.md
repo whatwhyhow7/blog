@@ -1,8 +1,8 @@
 ---
 layout: about
-title: Welcome
+title: About
 menu: true
-order: 1
+order: 5
 ---
 
 ## Hydejack
@@ -69,8 +69,8 @@ This table details what is and isn't included in each respective version.
 [welcome]: https://qwtel.com/hydejack/
 
 [docs]: docs/6.6.0/index.md
-[license]: LICENSE.md
-[pro]: licenses/PRO-license.md
+[license]: ../page/LICENSE.md
+[pro]: ../../licenses/PRO-license.md
 
 [download]: https://github.com/qwtel/hydejack/releases
 [gem]: https://rubygems.org/gems/jekyll-theme-hydejack

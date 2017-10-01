@@ -1,7 +1,7 @@
 ---
 layout: list
-title: Tools
-slug: Tools
+title: Dev-Tool
+slug: Dev-Tool
 menu: true
 order: 4
 description: >

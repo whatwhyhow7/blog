@@ -19,7 +19,7 @@ Should you discover a mistake in the docs (or a bug in general) feel free to [op
 
 **NOTE**: This document was created using Hydejack's print layout.
 If you prefer to read it the documentation in your browser,
-you can find it [here]({{ site.baseurl }}{% link docs/6.6.1/index.md %}).
+you can find it [here]({{ site.baseurl }}{% link docs/page/index.md %}).
 {:.message}
 
 ## Table of Contents
