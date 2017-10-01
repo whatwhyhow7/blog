@@ -2,27 +2,21 @@
 #  User configuration
 # -----------------------------------------------------------------------------
 
-title:               Hydejack
+title:               Hower Blog
 
-# The unique resource location of your page.
-# Set to `https://<username>.github.io` when hosting on GitHub Pages
 url:                 https://qwtel.com
 
-# Set to '' when hosting a blog on GitHub Pages, ie on `//<username>.github.io`
-# Set to '/<reponame>' when using the `gh-pages` branch of a repository
 baseurl:             /blog
 
-# A very short description of your page
-tagline:             A pretentious two-column Jekyll theme.
+# 博客首页的副 title
+tagline:             王文豪的博客
 
-# A short description of the page, used in the sidebar and as fallback for the meta description tag.
-# Markdown enabled, but don't use more than one paragraph (enforced by `>`)
-description:
+description:        About Learning. About Work. About Life.
 
 # This should be the same author as first entry in `_data/authors.yml`
 author:
   name:              <firstname> <lastname>
-  email:             <mail@domain.tld>
+  email:             wangwenhao.rar@gmail.com
 
 # Fallback image and color
 image:               /blog/assets/img/nap.jpg
