@@ -2,9 +2,12 @@
 layout: post
 title: 'RequireJS'
 tags: [Front-End]
+description: >
+  这里写摘要。
 ---
 
-这里写摘要。
+**NOTE**: 这里也可以写摘要。
+{:.message}
 
 ## What is RequireJS?
 

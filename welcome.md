@@ -1,8 +1,8 @@
 ---
 layout: about
-title: About
+title: Welcome
 menu: true
-order: 3
+order: 1
 ---
 
 ## Hydejack
@@ -12,8 +12,6 @@ Hydejack is a cutting-edge Jekyll theme that combines the best of static sites a
 {:.lead}
 
 It aims to be the complete package for professionals on the web. It features a blog suitable for both prose and technical documentation, a showcase for projects and a resume that fits with the rest of the design.
-
-Open `about.md` to edit this text.
 
 ### Features
 Both the PRO *and* free version includes all of the features listed below:
@@ -36,13 +34,10 @@ Both the PRO *and* free version includes all of the features listed below:
 * RSS feed
 * Print layout
 
-Open `about.md` to edit this text.
 
 ### [Documentation][docs]{:data-flip="title"}
 Hydejack is documented extensively.
 You can read it [on this site][docs], in the [repository's wiki][wiki], or [download the PDF][download].
-
-Open `about.md` to edit this text.
 
 ### Download
 There are two versions of Hydejack: The Free Version includes basic blogging functionality,
@@ -63,7 +58,6 @@ This table details what is and isn't included in each respective version.
 | Price                            | Free               | $34                |
 | | [**Download on GitHub**][download]<br/> -- or -- <br/>[**Use the RubyGem**][gem] | [**Buy Now – $34**][buy][^3] |
 
-Open `about.md` to edit this text.
 
 [^1]: Applies after the initial page load.  
 [^2]: Actual page load speed depends on your hosting provider as well as discipline regarding resolution of images and usage of 3rd party plugins.

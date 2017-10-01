@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Vue.js
-tags: [Front-End]
+title: Sublime Text
+tags: [Tools]
 description: >
   这里写摘要。
 ---
@@ -9,7 +9,7 @@ description: >
 **NOTE**: 这里也可以写摘要。
 {:.message}
 
-## What is Vue\.js?
+## What is Sublime Text?
 
 ### 副标题 1
 
@@ -23,7 +23,7 @@ description: >
 * 要点 2
 * 要点 3
 
-## Why Vue\.js?
+## Why Sublime Text?
 
 ### 副标题 1
 
@@ -37,7 +37,7 @@ description: >
 * 要点 2
 * 要点 3
 
-## How to use Vue\.js?
+## How to use Sublime Text?
 
 ### 副标题 1
 
