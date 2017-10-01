@@ -8,10 +8,10 @@ url:                 https://qwtel.com
 
 baseurl:             /blog
 
-# 博客首页的副 title
-tagline:             王文豪的博客
-
-description:        About Learning. About Work. About Life.
+description:         >
+  <p>About Learning.</p>
+  <p>About Work.</p>
+  <p>About Life.</p>
 
 # This should be the same author as first entry in `_data/authors.yml`
 author:

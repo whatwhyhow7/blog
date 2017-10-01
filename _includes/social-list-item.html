@@ -8,18 +8,6 @@
 {% assign app = data_social.append %}
 {% assign prep = data_social.prepend %}
 
-{% unless data_social %}
-  {% if platform == "twitter" %}
-    {% assign name = "Twitter" %}
-    {% assign icon = "icon-twitter" %}
-    {% assign prep = "https://twitter.com/" %}
-  {% elsif platform == "github" %}
-    {% assign name = "GitHub" %}
-    {% assign icon = "icon-github" %}
-    {% assign prep = "https://github.com/" %}
-  {% endif %}
-{% endunless %}
-
 {% if username contains "//" %}
   {% assign url = username %}
 {% else %}
@@ -27,7 +15,7 @@
 {% endif %}
 
 <li>
-  <a href="{{ url }}" title="{{ name }}">
+  <a href="{{ url }}" title="{{ name }}" target="_blank">
     <span class="{{ icon }}"></span>
     <span class="sr-only">{{ name }}</span>
   </a>
