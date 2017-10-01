@@ -32,7 +32,6 @@ Should you discover a mistake in the docs (or a bug in general) feel free to [op
 ## Other
 * [LICENSE]{:.heading data-flip="title"} -- The license of this project.
 * [NOTICE]{:.heading data-flip="title"} -- Parts of this program are provided under separate licenses.
-* [CHANGELOG]{:.heading data-flip="title"} -- Version history of Hydejack.
 {:.related-posts.faded}
 
 [installation]: installation.md
@@ -45,4 +44,3 @@ Should you discover a mistake in the docs (or a bug in general) feel free to [op
 [advanced]: advanced.md
 [LICENSE]: ../../LICENSE.md
 [NOTICE]: ../../NOTICE.md
-[CHANGELOG]: ../../CHANGELOG.md

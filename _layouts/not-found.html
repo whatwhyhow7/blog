@@ -3,9 +3,7 @@ layout: base
 ---
 
 <div class="page">
-  <h1 class="page-title">{{ page.title | default: "404: Page Not Found" }}</h1>
-  <p class="lead">
-    Sorry, we've misplaced that URL or it's pointing to something that doesn't exist. 
-    <a href="{{ '/' | relative_url }}">Head back home</a> to try finding it again.
-  </p>
+  <h1 class="page-title">{{ page.title | default: "404 : 这里啥都没有" }}</h1>
+  <p class="lead">应该是开错车了...</p>
+  <p class="lead"><a href="{{ '/' | relative_url }}">重新规划路线</a></p>
 </div>

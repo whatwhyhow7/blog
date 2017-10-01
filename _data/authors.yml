@@ -1,30 +1,14 @@
-# The primary author of this blog.
-# Must be the same as `author` in `_config.yml`.
-# Change `qwtel` to your shortname (used in the front matter to set a page's author, e.g. `author: qwtel`).
-qwtel:
-  name:              <firstname> <lastname>
+Hower:
+  name:              whatwhyhow7
   email:             wangwenhao.rar@gmail.com
 
-  # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    这里填个人介绍。
 
-    Open `_data/authors.yml` to edit this text.
-
-  # This photo will be used in the about section
   picture:
-    src:             https://placehold.it/128x128
-    # srcset is optional, but can be used to provide higher res versions for retina displays
-    srcset:
-      1x:            https://placehold.it/128x128
-      2x:            https://placehold.it/256x256
+    src:               /blog/assets/img/me.jpg
 
-  # Social media icons in sidebar
-  # Comment/uncommet to show/hide
-  # Icons appear in order, can be rearranged:
   social:
     home:              https://whatwhyhow7.github.io/
     photo:             https://whatwhyhow7.github.io/photo/

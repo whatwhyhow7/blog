@@ -4,8 +4,6 @@
 
 title:               Hower Blog
 
-url:                 https://qwtel.com
-
 baseurl:             /blog
 
 description:         >
@@ -15,7 +13,7 @@ description:         >
 
 # This should be the same author as first entry in `_data/authors.yml`
 author:
-  name:              <firstname> <lastname>
+  name:              whatwhyhow7
   email:             wangwenhao.rar@gmail.com
 
 # Fallback image and color
@@ -43,13 +41,13 @@ google_analytics:    <UA-XXXXXXXX-X>
 disqus_shortname:    <username>
 
 # This text will appear in the footer of every page. Markdown enabled.
-copyright:           '&copy; 2017. All rights reserved.'
+copyright:           'Copyright &copy; whatwhyhow7 ❤ 2017'
 
 # Format of the permalinks
 permalink:           pretty
 
 # Pagination configuration (used by the `blog` layout)
-paginate:            5
+paginate:            7
 paginate_path:       '/page-:num/'
 
 # If you are upgrading form a v5 verison of Hydejack, uncomment the two lines below,
