@@ -59,11 +59,11 @@ tags: [Dev-Tool]
 
 * background：可以把编辑器背景设置成喜欢的图片。参考配置如下：
 ```js
-"background.useDefault": false,
-"background.style": {
-    "opacity": 0.06
+"background.useDefault" : false,
+"background.style" : {
+    "opacity" : 0.06
   },
-"background.customImages": [
+"background.customImages" : [
     "file:///C:/Users/whatwhyhow7/Desktop/Wallpaper/geek.jpg"
 ]
 ```
