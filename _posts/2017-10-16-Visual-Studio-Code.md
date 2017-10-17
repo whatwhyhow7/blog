@@ -41,7 +41,7 @@ tags: [Dev-Tool]
 
 ## 插件
 
-全局设置以及大多数插件都需要在用户设置右侧的 json 文档中进行配置。使用 `Ctrl + ,` 打开用户设置。
+全局设置以及部分插件需要在用户设置右侧的 json 文档中进行配置。使用 `Ctrl + ,` 打开用户设置。
 
 * Project Manager：快速切换常用的项目，再也不用一个项目一个项目的打开文件夹了。
 
@@ -70,5 +70,6 @@ tags: [Dev-Tool]
 
 ## 参考资料
 
-[官方下载地址](https://code.visualstudio.com/)
-[非官方中文手册](https://jeasonstudio.gitbooks.io/vscode-cn-doc/content/)
+* [官方下载地址](https://code.visualstudio.com/)
+
+* [非官方中文手册](https://jeasonstudio.gitbooks.io/vscode-cn-doc/content/)
