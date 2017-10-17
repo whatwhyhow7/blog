@@ -4,7 +4,7 @@ title: Visual Studio Code
 tags: [Dev-Tool]
 ---
 
-**NOTE**: 我是一个半路出家的前端工程师，受最早写 Java 都用 Eclipse 的影响，后来不管是改用 IntelliJ IDEA 写 Java，还是用 Webstorm 做 IDE 和用 Sublime 做编辑器，都会把快捷键设置成 Eclipse Keymap，因为实在是记不住新的快捷键。其实很早前就被安利过 VS Code，但还是因为上述的原因一直懒得尝试。最近由于工作内容的调整（开始接手搜狗翻译前端项目），便心血来潮想改头换面，于是就入坑 VS Code 了。
+**摘要**: 我是一个半路出家的前端工程师，受最早写 Java 都用 Eclipse 的影响，后来不管是改用 IntelliJ IDEA 写 Java，还是用 Webstorm 做 IDE 和用 Sublime 做编辑器，都会把快捷键设置成 Eclipse Keymap，因为实在是记不住新的快捷键。其实很早前就被安利过 VS Code，但还是因为上述的原因一直懒得尝试。最近由于工作内容的调整（开始接手搜狗翻译前端项目），便心血来潮想改头换面，于是就入坑 VS Code 了。
 {:.message}
 
 ## 快捷键
