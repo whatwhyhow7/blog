@@ -13,11 +13,13 @@ tags: [Dev-Tool]
 
 | 类型 | 快捷键 |
 | ---: | :--- |
+| 打开命令面板 | `F1` |
+| 文件重命名 | `F2` |
 | 打开一个新窗口（查看多个项目） | `Ctrl + Shift + N` |
 | 新建文件 | `Ctrl + N` |
+| 跳转到文件 | `Ctrl + P` |
 | 在已打开文件之间切换 | `Ctrl + Tab`，`Alt + Left`，`Alt + Right` |
 | 在当前窗口中切出一个新的编辑器（最多3个）| `Ctrl + \`，也可以按住 Ctrl 并点击文件名 |
-| 文件重命名 | `F2` |
 
 ### 编辑修改相关
 
@@ -34,15 +36,28 @@ tags: [Dev-Tool]
 | 回退上一个光标操作处 | `Ctrl + U` |
 | 跳转到变量定义处 | `F12` |
 | 列出变量所有的引用 | `Shift + F12` |
+| 跳转到符号或段落 | `Ctrl + shift + O` |
+| 跳转到行 | `Ctrl + G` |
 
 ## 插件
 
-大多数插件都需要在用户设置右侧的 json 中进行配置。使用 `Ctrl + Comma` 打开用户设置。`Comma` 键是 `M` 键旁边的逗号键。
+全局设置以及大多数插件都需要在用户设置右侧的 json 文档中进行配置。使用 `Ctrl + ,` 打开用户设置。
 
-* vscode-icons：会把项目的每一个文件和文件夹的图标设置为对应文件类型和文件夹类型的图标，一目了然，快速定位。
+* Project Manager：快速切换常用的项目，再也不用一个项目一个项目的打开文件夹了。
+
+* HTML Snippets：可以在不输入 < 的情况下提示。
+
+* ESLint：检测 js 必备。
+
+* Bracket Pair Colorizer：对括号对进行着色。
+
+* Output Colorizer: 输出着色。
+
+* vscode-icons 或 Material Icon Theme：文件图标主题。
+
+* beautify：格式化html，css，js。
 
 * background：可以把编辑器背景设置成喜欢的图片。参考配置如下：
-
 ```js
 "background.useDefault": false,
 "background.style": {
@@ -53,8 +68,7 @@ tags: [Dev-Tool]
 ]
 ```
 
-* 
-
 ## 参考资料
 
+[官方下载地址](https://code.visualstudio.com/)
 [非官方中文手册](https://jeasonstudio.gitbooks.io/vscode-cn-doc/content/)
