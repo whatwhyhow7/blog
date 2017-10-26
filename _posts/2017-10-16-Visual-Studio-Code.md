@@ -9,6 +9,8 @@ tags: [Dev-Tool]
 
 ## 快捷键
 
+Windows 下的快捷键，Mac 下的快捷键等有钱且需要买的时候再更新吧……
+
 ### 项目文件相关
 
 | 类型 | 快捷键 |
@@ -57,7 +59,7 @@ tags: [Dev-Tool]
 
 * beautify：格式化html，css，js。
 
-* background：可以把编辑器背景设置成喜欢的图片。参考配置如下：
+* background：可以把编辑器背景设置成喜欢的图片（但经常失效，所以其实也挺鸡肋的……）。参考配置如下：
 ```js
 "background.useDefault" : false,
 "background.style" : {
