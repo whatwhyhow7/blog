@@ -101,8 +101,8 @@ typeof Function.prototype.prototype  // undefined
 Object.prototype.__proto__ === null  // true
 
 Math.__proto__ === Object.prototype  // true
-Math.construrctor == Object  // true
+Math.construrctor === Object  // true
 
 JSON.__proto__ === Object.prototype  // true
-JSON.construrctor == Object  //true
+JSON.construrctor === Object  //true
 ```
