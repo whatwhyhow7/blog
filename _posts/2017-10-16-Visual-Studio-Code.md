@@ -50,7 +50,7 @@ Windows 下的快捷键，Mac 下的快捷键等有钱且需要买的时候再�
 ```js
 "terminal.integrated.cursorBlinking": true,
 "terminal.integrated.cursorStyle": "line",
-"terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe"
+"terminal.integrated.shell.windows": "C:/Program Files/Git/bin/bash.exe"
 ```
 
 另外，在‪ `C:\Program Files\Git\etc\bash.bashrc` 中可以添加 `alias ll="ls -la"` 让 `Git Bash` 支持 `ll` 命令。
