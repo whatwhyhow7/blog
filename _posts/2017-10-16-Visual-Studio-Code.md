@@ -28,6 +28,7 @@ tags: [Dev-Tool]
 | 类型 | 快捷键 |
 | ---: | :--- |
 | 选中整行 | `Ctrl + I` |
+| 将选择添加到下一个查找匹配项 | `Ctrl + D` |
 | 点击一行进行整行剪切、复制、粘贴 | `Ctrl + X`、`Ctrl + C`、`Ctrl + V` |
 | 代码格式化 | `Shift + Alt + F` |
 | 上下移动一行 | `Alt + Up`、`Alt + Down` |
