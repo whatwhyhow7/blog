@@ -71,9 +71,11 @@ tags: [Dev-Tool]
 
 * Code Runner：轻松测试很多语言的代码片段而不用搭建响应的运行环境。
 
-* vscode-icons 或 Material Icon Theme：文件图标主题。
+* XML Tools：格式化 xml 文件。
 
 * beautify：格式化 html，css，js。
+
+* vscode-icons 或 Material Icon Theme：文件图标主题。
 
 * background：可以把编辑器背景设置成喜欢的图片（但经常失效，所以其实也挺鸡肋的……）。参考配置如下：
 ```js
