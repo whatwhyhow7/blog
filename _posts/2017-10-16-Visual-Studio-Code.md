@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Visual Studio Code
+title: Visual Studio Code 使用手册
 tags: [Dev-Tool]
 ---
 
