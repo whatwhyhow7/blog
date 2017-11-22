@@ -20,6 +20,7 @@ tags: [Dev-Tool]
 | 打开一个新窗口（查看多个项目） | `Ctrl + Shift + N` |
 | 新建一个文件 | `Ctrl + N` |
 | 跳转到文件 | `Ctrl + P` |
+| 打开或关闭终端面板 | `Ctrl + J` |
 | 在已打开文件之间切换 | `Ctrl + Tab`，`Alt + Left`，`Alt + Right` |
 | 在当前窗口中切出一个新的编辑器（最多3个）| `Ctrl + \`，也可以按住 Ctrl 并点击文件名 |
 
