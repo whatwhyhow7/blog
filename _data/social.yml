@@ -105,7 +105,7 @@
     name: GitHub
     icon: icon-github
     prepend: "https://github.com/"
-    append: "blog"
+    append: "/blog"
   npm:
     name: npm
     icon: icon-npm
