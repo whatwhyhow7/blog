@@ -4,7 +4,7 @@ title: JavaScript 中获取页面内的选择文本
 tags: [Front-End]
 ---
 
-**摘要：**刚刚上线了 [搜狗翻译](https://fanyi.sogou.com/) PC 端的二期优化需求，终于有空写写自己的博客了。本次的二期需求中有一项是划词翻译，即用户使用鼠标在页面内选取一段文本，会在选取文本的右下方弹出一个小浮层，显示其选取文本的翻译内容。关于获得选取文本这里的技术点大体上是使用 [window.getSelection](https://developer.mozilla.org/zh-CN/docs/Web/API/Window/getSelection) 这个 API。但是在开发中发现不同浏览器对于这个 API 的兼容还有比较坑的。所以有必要在此做个记录。
+**摘要：**刚刚上线了 [搜狗翻译](https://fanyi.sogou.com/) PC 端的二期优化需求，终于有空写写自己的博客了。本次的二期需求中有一项是划词翻译，即用户使用鼠标在页面内选取一段文本，会在选取文本的右下方弹出一个小浮层，显示其选取文本的翻译内容。关于获得选取文本这里的技术点大体上是使用 [window.getSelection](https://developer.mozilla.org/zh-CN/docs/Web/API/Window/getSelection) 这个 API。但是在开发中发现不同浏览器对于这个 API 的兼容还是比较坑的。所以有必要在此做个记录。
 {:.message}
 
 ## 获取页面内的选择文本
