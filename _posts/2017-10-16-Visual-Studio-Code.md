@@ -74,6 +74,8 @@ tags: [Dev-Tool]
 
 * XML Tools：格式化 xml 文件。
 
+* Path Intellisense：智能提示路径和目录层级，墙裂推荐。
+
 * beautify：格式化 html，css，js。
 
 * vscode-icons 或 Material Icon Theme：文件图标主题。
