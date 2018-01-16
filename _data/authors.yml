@@ -4,7 +4,7 @@ Hower:
 
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
-    这里填个人介绍。
+    这里应该是填个人介绍的，但是我不知道该写什么好。所以就这样吧。
 
   picture:
     src:               /blog/assets/img/me.jpg

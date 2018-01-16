@@ -5,8 +5,7 @@ slug: Dev-Tool
 menu: true
 order: 4
 description: >
-  Hydejack is a pretentious two-column [Jekyll](http://jekyllrb.com/) theme, stolen by
-  [`@qwtel`](https://twitter.com/qwtel) from [Hyde](http://hyde.getpoole.com).
-  You could say it was.. [hydejacked](http://media3.giphy.com/media/makedRIckZBW8/giphy.gif).
-  Open `_featured_tags/hydejack.md` to edit this text.
+
+  工欲善其事，必先利其器。优良的开发工具绝对是开发过程中的利器，有必要特别分类进行总结。
+
 ---

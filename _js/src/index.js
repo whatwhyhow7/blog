@@ -9,7 +9,6 @@ import 'core-js/fn/array/reduce';
 import 'web-animations-js';
 
 import '../lib/modernizr-custom';
-import '../lib/version';
 
 import './katex';
 import './drawer';

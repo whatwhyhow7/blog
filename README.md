@@ -2,11 +2,13 @@
 
 这是 [@whatwhyhow7](https://whatwhyhow7.github.io/blog) 的个人技术博客。
 
-
-
 ## 主要内容
 
+关于前端、关于后端、关于开发工具，就酱。
 
+- [Front-End](https://whatwhyhow7.github.io/blog/tag/front-end/)
+- [Back-End](https://whatwhyhow7.github.io/blog/tag/back-end/)
+- [Dev-Tool](https://whatwhyhow7.github.io/blog/tag/dev-tool/)
 
 ## 申明和感谢
 
