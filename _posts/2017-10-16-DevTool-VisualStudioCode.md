@@ -52,7 +52,7 @@ tags: [Dev-Tool]
 ```js
 "terminal.integrated.cursorBlinking": true,
 "terminal.integrated.cursorStyle": "line",
-"terminal.integrated.shell.windows": "C:/Program Files/Git/bin/bash.exe"
+"terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe"
 ```
 
 另外，在‪ `C:\Program Files\Git\etc\bash.bashrc` 中可以添加 `alias ll="ls -la"` 让 `Git Bash` 支持 `ll` 命令。
@@ -60,36 +60,21 @@ tags: [Dev-Tool]
 
 ## 安装插件
 
-* Project Manager：快速切换常用的项目，再也不用一个项目一个项目的打开文件夹了。
-
-* HTML Snippets：可以在不输入 < 的情况下提示。
-
-* ESLint：检测 js 必备。
-
 * Bracket Pair Colorizer：对括号对进行着色。
-
-* Output Colorizer: 给控制台输出着色。
 
 * Code Runner：轻松测试很多语言的代码片段而不用搭建响应的运行环境。
 
-* XML Tools：格式化 xml 文件。
+* One Dark Pro：个人比较喜欢的一个主题插件，配色很舒服。
+
+* Output Colorizer: 给控制台输出着色。
 
 * Path Intellisense：智能提示路径和目录层级，墙裂推荐。
 
-* beautify：格式化 html，css，js。
+* Project Manager：快速切换常用的项目，再也不用一个项目一个项目的打开文件夹了。
+
+* XML Tools：格式化 xml 文件。
 
 * vscode-icons 或 Material Icon Theme：文件图标主题。
-
-* background：可以把编辑器背景设置成喜欢的图片（但经常失效，所以其实也挺鸡肋的……）。参考配置如下：
-```js
-"background.useDefault" : false,
-"background.style" : {
-    "opacity" : 0.06
-},
-"background.customImages" : [
-    "file:///C:/Users/whatwhyhow7/Desktop/Wallpaper/geek.jpg"
-]
-```
 
 ## 参考资料
 
