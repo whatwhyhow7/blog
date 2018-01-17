@@ -8,19 +8,19 @@ tags: [Front-End]
 {:.message}
 
 ```js
-网页可见区域宽度                  document.documentElement.clientWidth  || document.body.clientWidth  || $(window).width();
-网页可见区域高度                  document.documentElement.clientHeight || document.body.clientHeight || $(window).height();
+document.documentElement.clientWidth  || document.body.clientWidth  || $(window).width();  // 网页可见区域宽度
+document.documentElement.clientHeight || document.body.clientHeight || $(window).height(); // 网页可见区域高度
 
-网页被卷去的宽度                  document.documentElement.scrollLeft   || document.body.scrollLeft   || $(window).scrollLeft();
-网页被卷去的高度                  document.documentElement.scrollTop    || document.body.scrollTop    || $(window).scrollTop();
+document.documentElement.scrollLeft   || document.body.scrollLeft   || $(window).scrollLeft(); // 网页被卷去的宽度
+document.documentElement.scrollTop    || document.body.scrollTop    || $(window).scrollTop();  // 网页被卷去的高度
 
-网页全文宽度（从最上滚到最下）     document.documentElement.scrollWidth  || document.body.scrollWidth;
-网页全文高度（从最左滚到最右）     document.documentElement.scrollHeight || document.body.scrollHeight;
+document.documentElement.scrollWidth  || document.body.scrollWidth;  // 网页全文宽度（从最上滚到最下）
+document.documentElement.scrollHeight || document.body.scrollHeight; // 网页全文高度（从最左滚到最右）
 
-某个元素的实际宽度                obj.offsetWidth  || $(obj).width();
-某个元素的实际高度                obj.offsetHeight || $(obj).height();
+obj.offsetWidth  || $(obj).width();  // 某个元素的实际宽度
+obj.offsetHeight || $(obj).height(); // 某个元素的实际高度
 
-某个元素的左边界到页面最左边的距离  obj.offsetLeft  || $(obj).offset().left;
-某个元素的上边界到页面最顶部的距离  obj.offsetTop   || $(obj).offset().top;
+obj.offsetLeft   || $(obj).offset().left; // 某个元素的左边界到页面最左边的距离
+obj.offsetTop    || $(obj).offset().top;  // 某个元素的上边界到页面最顶部的距离
 ```
 
