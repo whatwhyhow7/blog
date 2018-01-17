@@ -17,10 +17,10 @@ document.documentElement.scrollTop    || document.body.scrollTop    || $(window)
 document.documentElement.scrollWidth  || document.body.scrollWidth;  // 网页全文宽度（从最上滚到最下）
 document.documentElement.scrollHeight || document.body.scrollHeight; // 网页全文高度（从最左滚到最右）
 
-obj.offsetWidth  || $(obj).width();  // 某个元素的实际宽度
-obj.offsetHeight || $(obj).height(); // 某个元素的实际高度
+document.getElementById('obj').offsetWidth  || $('#obj').width();  // 某个元素的实际宽度
+document.getElementById('obj').offsetHeight || $('#obj').height(); // 某个元素的实际高度
 
-obj.offsetLeft   || $(obj).offset().left; // 某个元素的左边界到页面最左边的距离
-obj.offsetTop    || $(obj).offset().top;  // 某个元素的上边界到页面最顶部的距离
+document.getElementById('obj').offsetLeft   || $('#obj').offset().left; // 某个元素的左边界到页面最左边的距离
+document.getElementById('obj').offsetTop    || $('#obj').offset().top;  // 某个元素的上边界到页面最顶部的距离
 ```
 
