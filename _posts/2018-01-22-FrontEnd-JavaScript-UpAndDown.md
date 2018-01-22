@@ -1,6 +1,6 @@
 ---
 layout: post
-title: JavaScript 中实现上下键选择推荐词
+title: JavaScript 实现上下键选择推荐词
 tags: [Front-End]
 ---
 

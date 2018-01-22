@@ -1,6 +1,6 @@
 ---
 layout: post
-title: JavaScript 中获取页面内的选择文本
+title: JavaScript 获取页面内的选择文本
 tags: [Front-End]
 ---
 
