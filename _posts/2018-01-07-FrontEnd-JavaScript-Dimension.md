@@ -1,6 +1,6 @@
 ---
 layout: post
-title: JavaScript 中各种尺寸的计算方式
+title: JavaScript 中常见尺寸的计算方式
 tags: [Front-End]
 ---
 

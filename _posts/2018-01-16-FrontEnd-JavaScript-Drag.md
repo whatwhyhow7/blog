@@ -23,7 +23,8 @@ const Drag = {
     },
 
     drag (bar, target, callback) {
-        let self = this;
+
+        var self = this;
         if (self.getCss(target, "left") !== "auto") {
             self.params.left = self.getCss(target, "left");
         }
