@@ -12,6 +12,7 @@ tags: [Front-End]
 ## 别人的实现
 
 这里说的别人的实现就是：
+
 [https://github.com/douglascrockford/JSON-js/blob/master/json2.js](https://github.com/douglascrockford/JSON-js/blob/master/json2.js)
 
 将上述的 js 下载下来在项目中引入就可以了，使用时还是调用 `JSON.parse`，`JSON.stringify`。
