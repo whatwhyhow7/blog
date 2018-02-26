@@ -4,7 +4,7 @@ title: 初窥 Webpack
 tags: [Front-End]
 ---
 
-**摘要**: 当下 webpack 真是有点火，要说没听过或者不懂 webpack 都不好意思跟人说是个搞前端的。这里我尝试写一个 webpack 的简易上手教程，证明一下我也算是个“前端配置工程师”了。
+**摘要：**当下 webpack 真是有点火，要说没听过或者不懂 webpack 都不好意思跟人说是个搞前端的。这里我尝试写一个 webpack 的简易上手教程，证明一下我也算是个“前端配置工程师”了。
 {:.message}
 
 ## What is webpack?
