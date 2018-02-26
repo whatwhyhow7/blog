@@ -9,9 +9,9 @@ tags: [Back-End]
 
 用到的 jar：
 
-[httpclient-4.2.1.jar](/blog/assets/jar/httpclient-4.2.1.jar)
+<a href="/blog/assets/jar/httpclient-4.2.1.jar" target="_blank">httpclient-4.2.1.jar</a>
 
-[httpcore-4.2.1.jar](/blog/assets/jar/httpcore-4.2.1.jar)
+<a href="/blog/assets/jar/httpcore-4.2.1.jar" target="_blank">httpcore-4.2.1.jar</a>
 
 具体的实现：
 
