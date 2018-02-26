@@ -102,8 +102,8 @@ public class HttpUtil {
         String result = null;
         try {
             HttpParams params = new BasicHttpParams();
-			HttpConnectionParams.setConnectionTimeout(params, 5000);
-			HttpConnectionParams.setSoTimeout(params, 5000);
+            HttpConnectionParams.setConnectionTimeout(params, 5000);
+            HttpConnectionParams.setSoTimeout(params, 5000);
             HttpClient httpclient = new DefaultHttpClient(params);
             HttpGet httpget = new HttpGet(url);
             HttpResponse response = httpclient.execute(httpget);
