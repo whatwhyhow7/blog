@@ -29,34 +29,36 @@ tags: [Front-End]
 
 ```js
 (function () {
-    if (typeof window.JSON !== "object") {
+    if (typeof window.JSON !== 'object') {
         window.JSON = {
             parse: function (jsonStr) {
                 return eval('(' + jsonStr + ')'); 
             },
             stringify: function (jsonObj) {
-                var jsonArray = [];
-                for (var key in jsonObj) {
-                    var val = jsonObj[key],
-                        type = Object.prototype.toString.call(val),
-                        jsonItem = '"' + key + '"' + ':',
-                        jsonValue = '';
+                let items = [],
+                    result = '',
+                    type = Object.prototype.toString.call(jsonObj); // 数据类型
 
-                    if (type === '[object Object]') {
-                        jsonValue = window.JSON.stringify(val);
-                    } else if (type === '[object Array]') {
-                        let arrayArray = [];
-                        val.forEach(function (item) {
-                            arrayArray.push(Object.prototype.toString.call(item) === '[object Object]' ? window.JSON.stringify(item) : '"' + item + '"');
-                        });
-                        jsonValue = '[' + arrayArray.join(",") + ']';
-                    } else {
-                        jsonValue = '"' + val + '"';
+                if (type === '[object Array]') {
+                    // 数组
+                    jsonObj.forEach(function (item) {
+                        items.push(window.JSON.stringify(item));
+                    });
+                    result = '[' + items.join(',') + ']';
+                } else if (type === '[object Object]') {
+                    // 对象
+                    for (let item in jsonObj) {
+                        items.push('"' + item + '":' + window.JSON.stringify(jsonObj[item]));
                     }
-                    jsonItem += jsonValue;
-                    jsonArray.push(jsonItem);
+                    result = '{' + items.join(',') + '}';
+                } else if (type === '[object String]') {
+                    // 字符串
+                    result = '"' + jsonObj + '"';
+                } else {
+                    // 其他数据类型
+                    result = jsonObj;
                 }
-                return "{" + jsonArray.join(",") + "}";
+                return result;
             }
         };
     }
