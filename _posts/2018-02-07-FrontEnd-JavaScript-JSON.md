@@ -53,7 +53,7 @@ tags: [Front-End]
                     result = '{' + items.join(',') + '}';
                 } else if (type === '[object String]') {
                     // 字符串
-                    result = '"' + jsonObj.replace(/\\/g, '\\\\').replace(/"/g, '\\"') + '"';
+                    result = '"' + jsonObj.replace(/\\/g, '\\\\').replace(/"/g, '\\"').replace(/[\n\r]/g, '\\n') + '"';
                 } else {
                     // 其他数据类型
                     result = jsonObj;
