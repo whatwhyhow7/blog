@@ -37,5 +37,15 @@ tags: [Front-End]
 
 至此，网站的主题套用就算完成了。但是别人的主题终归只是一个模板，其中还有很多细节需要我们耐心地修改更换为我们自己的内容。对于文案调整这类比较小的修改，我们只需要在本地修改后推送到远程就可以生效了。但是对于样式和交互调整这种比较大的修改，需要反复调试才能完成。如果只是靠反复推送到远程查看效果就太影响效率了。所以我们需要在本地搭建可以运行 `Jekyll` 项目的环境，这样我们在本地就可以看到修改的效果，等到本地修改完成后再推送到远程实现网站的更新。
 
+这里主要讲一下 windows 下 `Jekyll` 的安装过程。`Jekyll` 是使用 `ruby` 语言开发的，所以首先需要安装 `ruby` 环境。
+
+1. 安装 [Rails](http://railsinstaller.org/en)。安装完成之后，在命令行中输入 `ruby -v` 来检查 `ruby` 是否已经正确安装。
+
+2. 安装 [RubyGems](https://rubygems.org/pages/download)。`RubyGems` 是一个 `ruby` 的包管理系统，可以用它很方便地在本地安装 `ruby` 应用。下载 zip 包并解压缩，找到 `setup.rb` 文件所在目录并执行 `ruby setup.rb`。安装完成之后，在命令行中输入 `gem -v` 来检查 `RubyGems` 是否已经正确安装。
+
+3. 安装 `Jekyll` 和 `Bundler`。有了 `RubyGems` 之后安装 `Jekyll` 就很容易了。在命令行中输入 `gem install jekyll`。安装完成之后，在命令行中输入 `jekyll -v` 来检查 `Jekyll` 是否已经正确安装。但是通常还需要通过 `gem install bundler` 安装 `Bundler` 依赖，同样的，`bundler -v` 来检查 `Bundler` 是否已经正确安装。
+
+4. 以上都安装好之后，进入本地的 `Jekyll` 项目，在命令行中输入 `jekyll serve -w` 便可以实时在本地 `http://localhost:4000/` 看到用模板搭建的网站了。
+
 
 
