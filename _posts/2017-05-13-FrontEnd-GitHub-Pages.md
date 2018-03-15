@@ -41,12 +41,12 @@ tags: [Front-End]
 
 1. 安装 [Rails](http://railsinstaller.org/en)。`jekyll` 是使用 `ruby` 语言开发的，所以首先需要安装 `ruby` 环境。安装完成之后，在命令行中输入 `ruby -v` 来检查 `ruby` 是否已经正确安装。
 
-2. 安装 [RubyGems](https://rubygems.org/pages/download)。`RubyGems` 是一个 `ruby` 的包管理系统，可以用它很方便地在本地安装 `ruby` 应用。下载 zip 包并解压缩，找到 `setup.rb` 文件所在目录并执行 `ruby setup.rb`。安装完成之后，在命令行中输入 `gem -v` 来检查 `RubyGems` 是否已经正确安装。
+2. 安装 [RubyGems](https://rubygems.org/pages/download)。`RubyGems` 是一个 `ruby` 的包管理器，用它可以很方便地在本地安装 `ruby` 应用。下载 zip 包并解压缩，找到 `setup.rb` 文件所在目录并执行 `ruby setup.rb`。安装完成之后，在命令行中输入 `gem -v` 来检查 `RubyGems` 是否已经正确安装。
 
 3. 安装 `jekyll`。有了 `RubyGems` 之后安装 `jekyll` 就很容易了。在命令行中输入 `gem install jekyll`。安装完成之后，在命令行中输入 `jekyll -v` 来检查 `jekyll` 是否已经正确安装。
 
-4. 以上都安装好之后，进入本地的 `jekyll` 项目，在命令行中输入 `jekyll serve -w` 便可实时地在本地 `http://localhost:4000/` 看到用模板搭建的网站了。如果遇到相关依赖报错的问题，可以参照上一步中安装 `jekyll` 的方法安装其他依赖。比如安装 `bundler` 依赖：`gem install bundler`，同样的，使用 `bundler -v` 来检查 `Bundler` 是否已经正确安装。
+4. 以上都安装好之后，进入本地的 `jekyll` 项目，在命令行中输入 `jekyll serve -w` 便可实时地在本地 `http://localhost:4000/` 看到用模板搭建的网站了。如果遇到相关依赖报错的问题，可以参照上一步中安装 `jekyll` 的方法安装其他依赖。比如安装 `bundler` 依赖：`gem install bundler`，同样的，使用 `bundler -v` 来检查 `bundler` 是否已经正确安装。
 
-## 其他
+## 最后
 
 至此，我们的网站已经可以在本地进行预览了。后续我们要做的就是熟悉 `jekyll` 模板的结构，然后修改成为我们自己的网站，并且坚持写 `markdown` 以丰富网站内容。关于 `jekyll` 和 `markdown` 的相关语法直接去看对应的官方文档就好了，这里便不再赘述。
