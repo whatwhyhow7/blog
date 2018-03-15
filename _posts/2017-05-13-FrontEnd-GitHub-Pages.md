@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 搭建自己的 GitHub Pages
-tags: [Front-End]
+tags: [Dev-Tool]
 ---
 
 **摘要：**以前不觉得，入坑前端后，觉得是时候弄一个自己的个人网站了，写写技术总结，上传些平时拍过的照片，再学别人弄个有逼格的在线简历啥的。搞前端还是得弄弄面子工程。花了几天时间，终于分别弄好了[个人主页](https://whatwhyhow7.github.io/)、[技术博客](https://whatwhyhow7.github.io/blog/)、[摄影作品](https://whatwhyhow7.github.io/photo/) 和 [在线简历](https://whatwhyhow7.github.io/resume/) 这4个小站。乘着刚刚搭建完成，总结一下使用 GitHub Pages 搭建个人网站的主要步骤。
