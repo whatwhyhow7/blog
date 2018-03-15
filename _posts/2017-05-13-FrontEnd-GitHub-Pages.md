@@ -27,7 +27,7 @@ tags: [Front-End]
 
 其实，GitHub Pages 官方使用的是一个叫做 [jekyll](https://jekyllrb.com/) 的模板转换工具进行页面渲染的。我们只要将一个 GitHub 项目设置成为一个 `jekyll` 工程项目，就可以将这个项目中的 `markdown` 文件和 `html` 模板转化为静态网页。
 
-那么想使用自定义的主题，除了自己按照 `jekyll` 规定的项目结构和配置进行编写以外，其实网上有很多别人写好的 [jekyll模板](http://jekyllthemes.org/)，我们只需要选择其中自己喜欢的模板主题，`clone` 下来后将其对应的文件放入我们的项目目录中，推送到远程后更换别人的主题就算完成了。下图就是一个大致的 `jekyll` 项目目录结构：
+那么想使用自定义的主题，除了自己按照 `jekyll` 规定的项目结构和配置进行编写以外，其实网上有很多别人写好的 [jekyll模板](http://jekyllthemes.org/)，我们只需要选择其中自己喜欢的模板主题，`clone` 下来后将其对应的文件放入我们的项目目录中，推送到远程后更换成别人的主题就算完成了。下图就是一个大致的 `jekyll` 项目目录结构：
 
 ![jekyll 项目结构](/blog/assets/img/docs/GitHub-Pages/02.png)
 
@@ -37,9 +37,9 @@ tags: [Front-End]
 
 至此，网站的主题套用就算完成了。但是别人的主题终归只是一个模板，其中还有很多细节需要我们耐心地修改更换为我们自己的内容。对于文案调整这类比较小的修改，我们只需要在本地修改后推送到远程就可以生效了。但是对于样式和交互调整这种比较大的修改，需要反复调试才能完成。如果只是靠反复推送到远程查看效果就太影响效率了。所以我们需要在本地搭建可以运行 `jekyll` 项目的环境，这样我们在本地就可以看到修改的效果，等到本地修改完成后再推送到远程实现网站的更新。
 
-这里主要讲一下 windows 下 `jekyll` 的安装过程。`jekyll` 是使用 `ruby` 语言开发的，所以首先需要安装 `ruby` 环境。
+那么就需要在本地安装 `jekyll` 环境了。以 `windows` 下的安装过程为例：
 
-1. 安装 [Rails](http://railsinstaller.org/en)。安装完成之后，在命令行中输入 `ruby -v` 来检查 `ruby` 是否已经正确安装。
+1. 安装 [Rails](http://railsinstaller.org/en)。`jekyll` 是使用 `ruby` 语言开发的，所以首先需要安装 `ruby` 环境。安装完成之后，在命令行中输入 `ruby -v` 来检查 `ruby` 是否已经正确安装。
 
 2. 安装 [RubyGems](https://rubygems.org/pages/download)。`RubyGems` 是一个 `ruby` 的包管理系统，可以用它很方便地在本地安装 `ruby` 应用。下载 zip 包并解压缩，找到 `setup.rb` 文件所在目录并执行 `ruby setup.rb`。安装完成之后，在命令行中输入 `gem -v` 来检查 `RubyGems` 是否已经正确安装。
 
