@@ -25,27 +25,28 @@ tags: [Front-End]
 
 尽管 GitHub Pages 为我们提供了几个还算不错的默认页面主题，但是对于做前端开发的同学肯定不会满意。这时我们就会考虑能不能在默认的主题基础上修改或者套用其他更好看的页面主题呢？答案自然是肯定的。
 
-其实，GitHub Pages 官方使用的是一个叫做 [Jekyll](https://jekyllrb.com/) 的模板转换工具进行页面渲染的。我们只要将一个 GitHub 项目设置成为一个 `Jekyll` 工程项目，就可以将这个项目中的 `markdown` 文件和 `html` 模板转化为静态网页。
+其实，GitHub Pages 官方使用的是一个叫做 [jekyll](https://jekyllrb.com/) 的模板转换工具进行页面渲染的。我们只要将一个 GitHub 项目设置成为一个 `jekyll` 工程项目，就可以将这个项目中的 `markdown` 文件和 `html` 模板转化为静态网页。
 
-那么想使用自定义的主题，除了自己按照 `Jekyll` 规定的项目结构和配置进行编写以外，其实网上有很多别人写好的 [Jekyll模板](http://jekyllthemes.org/)，我们只需要选择其中自己喜欢的模板主题，`clone` 下来后将其对应的文件放入我们的项目目录中，推送到远程后更换别人的主题就算完成了。下图就是一个大致的 `Jekyll` 项目目录结构：
+那么想使用自定义的主题，除了自己按照 `jekyll` 规定的项目结构和配置进行编写以外，其实网上有很多别人写好的 [jekyll模板](http://jekyllthemes.org/)，我们只需要选择其中自己喜欢的模板主题，`clone` 下来后将其对应的文件放入我们的项目目录中，推送到远程后更换别人的主题就算完成了。下图就是一个大致的 `jekyll` 项目目录结构：
 
-![Jekyll 项目结构](/blog/assets/img/docs/GitHub-Pages/02.png)
+![jekyll 项目结构](/blog/assets/img/docs/GitHub-Pages/02.png)
 
 关于如何将 GitHub 中的项目保存在本地并将本地项目和 GitHub 远程仓库建立关联的设置可以参见 [Git 使用手册](/blog/2016/04/06/DevTool-Git/) 中 **必要设置** 一节中的说明。
 
 ## 第四步：Jekyll 项目本地编译
 
-至此，网站的主题套用就算完成了。但是别人的主题终归只是一个模板，其中还有很多细节需要我们耐心地修改更换为我们自己的内容。对于文案调整这类比较小的修改，我们只需要在本地修改后推送到远程就可以生效了。但是对于样式和交互调整这种比较大的修改，需要反复调试才能完成。如果只是靠反复推送到远程查看效果就太影响效率了。所以我们需要在本地搭建可以运行 `Jekyll` 项目的环境，这样我们在本地就可以看到修改的效果，等到本地修改完成后再推送到远程实现网站的更新。
+至此，网站的主题套用就算完成了。但是别人的主题终归只是一个模板，其中还有很多细节需要我们耐心地修改更换为我们自己的内容。对于文案调整这类比较小的修改，我们只需要在本地修改后推送到远程就可以生效了。但是对于样式和交互调整这种比较大的修改，需要反复调试才能完成。如果只是靠反复推送到远程查看效果就太影响效率了。所以我们需要在本地搭建可以运行 `jekyll` 项目的环境，这样我们在本地就可以看到修改的效果，等到本地修改完成后再推送到远程实现网站的更新。
 
-这里主要讲一下 windows 下 `Jekyll` 的安装过程。`Jekyll` 是使用 `ruby` 语言开发的，所以首先需要安装 `ruby` 环境。
+这里主要讲一下 windows 下 `jekyll` 的安装过程。`jekyll` 是使用 `ruby` 语言开发的，所以首先需要安装 `ruby` 环境。
 
 1. 安装 [Rails](http://railsinstaller.org/en)。安装完成之后，在命令行中输入 `ruby -v` 来检查 `ruby` 是否已经正确安装。
 
 2. 安装 [RubyGems](https://rubygems.org/pages/download)。`RubyGems` 是一个 `ruby` 的包管理系统，可以用它很方便地在本地安装 `ruby` 应用。下载 zip 包并解压缩，找到 `setup.rb` 文件所在目录并执行 `ruby setup.rb`。安装完成之后，在命令行中输入 `gem -v` 来检查 `RubyGems` 是否已经正确安装。
 
-3. 安装 `Jekyll` 和 `Bundler`。有了 `RubyGems` 之后安装 `Jekyll` 就很容易了。在命令行中输入 `gem install jekyll`。安装完成之后，在命令行中输入 `jekyll -v` 来检查 `Jekyll` 是否已经正确安装。但是通常还需要通过 `gem install bundler` 安装 `Bundler` 依赖，同样的，`bundler -v` 来检查 `Bundler` 是否已经正确安装。
+3. 安装 `jekyll`。有了 `RubyGems` 之后安装 `jekyll` 就很容易了。在命令行中输入 `gem install jekyll`。安装完成之后，在命令行中输入 `jekyll -v` 来检查 `jekyll` 是否已经正确安装。
 
-4. 以上都安装好之后，进入本地的 `Jekyll` 项目，在命令行中输入 `jekyll serve -w` 便可以实时在本地 `http://localhost:4000/` 看到用模板搭建的网站了。
+4. 以上都安装好之后，进入本地的 `jekyll` 项目，在命令行中输入 `jekyll serve -w` 便可实时地在本地 `http://localhost:4000/` 看到用模板搭建的网站了。如果遇到相关依赖报错的问题，可以参照上一步中安装 `jekyll` 的方法安装其他依赖。比如安装 `bundler` 依赖：`gem install bundler`，同样的，使用 `bundler -v` 来检查 `Bundler` 是否已经正确安装。
 
+## 其他
 
-
+至此，我们的网站已经可以在本地进行预览了。后续我们要做的就是熟悉 `jekyll` 模板的结构，然后修改成为我们自己的网站，并且坚持写 `markdown` 以丰富网站内容。关于 `jekyll` 和 `markdown` 的相关语法直接去看对应的官方文档就好了，这里便不再赘述。
