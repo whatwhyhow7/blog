@@ -84,7 +84,7 @@ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 #### git diff <文件名>
 查看一个文件的修改内容。
 
-#### git diff HEAD -- <文件名>
+#### git diff HEAD `--` <文件名>
 查看一个文件在工作区和版本库中的最新版本的区别。
 
 #### git log
@@ -93,13 +93,13 @@ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 #### git reflog
 查看每次使用命令的记录。有过提交记录的也可以看到 `commit_id`。
 
-#### git reset --hard <版本号或commit_id>
+#### git reset `--`hard <版本号或commit_id>
 回滚到指定版本，把暂存区的修改回退到工作区。在 Git 中，用 `HEAD` 指针指向当前版本，上一个版本号是 `HEAD^`，上上一个版本号是 `HEAD^^`，第 100 个版本号是 `HEAD~100`。
 
 #### git reset HEAD <文件名>
 撤销暂存区的修改，重新放回工作区。
 
-#### git checkout -- <文件名>
+#### git checkout `--` <文件名>
 撤销工作区的修改甚至删除，让文件回到最近一次 `git commit` 或 `git add` 时的状态。这里有两种情况，一种是文件自修改后还没有被放到暂存区，现在撤销修改就回到和版本库一模一样的状态；一种是文件已经添加到暂存区后又作了修改，现在撤销修改就回到添加到暂存区后的状态。其实是用版本库里的版本替换工作区的版本，无论工作区是修改还是删除，都可以“一键还原”。
 
 #### git rm <文件名>
@@ -128,13 +128,13 @@ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 #### git branch
 列出本地库中的所有分支，当前分支前面会标一个 `*` 号。加上 `-a` 参数可以看到远程库中的其他分支。
 
-#### git merge --no-commit --no-ff <分支名>
+#### git merge `--`no-commit `--`no-ff <分支名>
 合并指定分支到当前分支。加上 `--no-commit` 避免自动提交，同时可以看到 merge 的内容，而且手动提交是可以添加提交的注释。加上 `--no-ff` 参数时会生成一个新的 `commit`，这样从分支历史上就可以看出来曾经做过合并。
 
 #### git branch -d <分支名>
 删除分支。如果要删除一个没有被合并过的分支，可以通过 `git branch -D <分支名>` 强行删除。
 
-#### git push --delete origin <分支名>
+#### git push `--`delete origin <分支名>
 删除远程分支。如果提示 `remote ref does not exist`，使用 `git fetch -p origin` 清除本地缓存。
 
 ---
@@ -154,5 +154,5 @@ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 #### git push origin <标签名>
 推送标签到远程仓库。
 
-#### git push origin --tags
+#### git push origin `--`tags
 推送全部未推送过的本地标签到远程仓库。
