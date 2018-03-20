@@ -1,6 +1,6 @@
 <div id="_yDrawer">
     <div id="_sidebar" class="sidebar">
-        <div class="sidebar-bg" style="background-image:url({{ image }}{{page.time | date: '%d' | modulo: 7}}.jpg)"></div>
+        <div class="sidebar-bg" style="background-image:url({{ image }}{{"now" | date: '%d' | modulo: 7}}.jpg)"></div>
         <header class="sidebar-sticky" role="banner">
             <div class="sidebar-about">
                 <h1>
