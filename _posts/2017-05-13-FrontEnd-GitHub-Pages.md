@@ -50,3 +50,14 @@ tags: [Dev-Tool]
 ## 最后
 
 至此，我们的网站已经可以在本地进行预览了。后续我们要做的就是熟悉 `jekyll` 模板的结构，然后修改成为我们自己的网站，并且坚持写 `markdown` 以丰富网站内容。关于 `jekyll` 和 `markdown` 的相关语法直接去看对应的官方文档就好了，这里便不再赘述。
+
+## 最后的最后
+
+以上仅仅是一个个人主页的搭建流程，也就是生成一个 `https://username.github.io/` 域名的主站网页。但是一般的个人站都会有若干的子站，如果想在主站域名下建立诸如 `https://username.github.io/blog` 的博客站和`https://username.github.io/photo` 的摄影站等等子站，又该怎么做呢？
+
+其实非常简单，那就是建立以子站名称为名称的仓库名。因为 Github 仅允许用户建立唯一的名为 `username.github.io` 的仓库作为 GitHub Pages 的主站，而其他仓库都可以作为这个主站下的子站。
+
+比如我现在想建立一个 `https://whatwhyhow7.github.io/2018/` 的子站，那么就先建立一个名为 2018 的远程仓库，再在这个仓库 `Settings` 页面的 `GitHub Pages` 设置项中使用 `master branch` 开启 GitHub Pages 功能，然后这个 `https://whatwhyhow7.github.io/2018/` 的子站就建立起来了。即使这个仓库不是一个 `jekyll` 项目的结构，只要有一个 `README.md` 文件，我们都可以通过访问子站而看到这个文件中的内容。
+
+![子站开启 GitHub Pages 功能](/blog/assets/img/docs/GitHub-Pages/03.png)
+
