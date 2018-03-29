@@ -61,3 +61,4 @@ tags: [Dev-Tool]
 
 ![子站开启 GitHub Pages 功能](/blog/assets/img/docs/GitHub-Pages/03.png)
 
+接下来就是重复以上步骤，把每一个子站仓库都改成我们钟意的 `jekyll` 项目，这样我们就可以通过子站的方式把不同类型的内容用站点区分开来，一个丰富的个人网站也就由此逐步形成了。
