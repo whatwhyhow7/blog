@@ -4,7 +4,7 @@ title: 搭建自己的 GitHub Pages
 tags: [Dev-Tool]
 ---
 
-**摘要：**以前不觉得，入坑前端后，觉得是时候弄一个自己的个人网站了，写写个人技术总结，上传些自己拍过的照片，再弄个在线简历啥的。搞前端还是得弄弄面子工程。花了几天时间，终于分别弄好了[个人主页](https://whatwhyhow7.github.io/)、[技术博客](https://whatwhyhow7.github.io/blog/)、[摄影作品](https://whatwhyhow7.github.io/photo/) 和 [在线简历](https://whatwhyhow7.github.io/resume/) 这4个小站。乘着刚刚搭建完成，总结一下使用 GitHub Pages 搭建个人网站的主要步骤。
+**摘要：**以前不觉得，入坑前端后，觉得是时候弄一个自己的个人网站了，写写技术总结，上传些自己拍过的照片，再弄个在线简历啥的。搞前端还是得弄弄面子工程。花了几天时间，终于分别弄好了[个人主页](https://whatwhyhow7.github.io/)、[技术博客](https://whatwhyhow7.github.io/blog/)、[摄影作品](https://whatwhyhow7.github.io/photo/) 和 [在线简历](https://whatwhyhow7.github.io/resume/) 这4个小站。乘着刚刚搭建完成，总结一下使用 GitHub Pages 搭建个人网站的主要步骤。
 {:.message}
 
 其实搭建个人网站的方法有很多，比如可以使用早前的 [WordPress](https://wordpress.org/) 和现在比较流行的的 [Wix](https://www.wix.com/) 等等。但是我选择了 [GitHub Pages](https://pages.github.com/)，因为更新网站内容非常方便，而且每次更新都可以和 GitHub 的 contributions 关联起来。当你在 GitHub 上没有其他可以保证你需要提交更新的项目时，只要你坚持更新 GitHub Pages，那么依然可以让你的 GitHub contributions 保持常绿状态。这么一举两得的事情为什么不用呢。
@@ -61,4 +61,4 @@ tags: [Dev-Tool]
 
 ![子站开启 GitHub Pages 功能](/blog/assets/img/docs/GitHub-Pages/03.png)
 
-接下来就是重复以上步骤，把每一个子站仓库都改成我们钟意的 `jekyll` 项目，这样我们就可以通过子站的方式把不同类型的内容用站点区分开来，一个丰富的个人网站也就由此逐步形成了。
+接下来就是重复以上步骤，把每一个子站仓库都改成我们钟意的 `jekyll` 项目，这样就可以通过子站的方式把不同类型的内容用站点区分开来，一个丰富的个人网站也就由此逐步形成了。
