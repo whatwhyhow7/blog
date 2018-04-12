@@ -23,4 +23,23 @@ tags: [Front-End]
 
 唔，那你到底是要怎样？怎么都不行呗，遂在网上找了下有没有其他开发者碰到同样的问题，一看还真有。
 
-原来，在小程序的 `wxss` 文件中，`font-face` 的 `url` 不接受 http 地址或相对地址作为参数，但是可以接受 `base64` 格式的内容。因此可以先将字体文件进行 `base64` 转换然后引用。
+## 问题原因
+
+原来，在小程序的 `wxss` 文件中，`font-face` 的 `url` 不接受 http 地址或相对地址作为参数，但是可以接受 `base64` 编码的内容。因此可以先将字体文件进行 `base64` 转换然后引用。
+
+## 解决步骤
+
+1. 访问 `https://transfonter.org/` 这个网站，打开 `Base64 encode` 这个开关并勾选所有字体类型，然后上传字体资源。
+
+2. 下载并解压转换后的文件，将其中 `css` 文件里的代码复制添加到微信小程序对应的 `wxss` 文件中。转换后的 `base64` 编码比较长，建议放到 `wxss` 文件的最底部。
+
+![添加到 wxss 文件](/blog/assets/img/docs/WeixinApp-Font/04.png)
+
+3. 设置对应的 `class` 或 `style` 样式并调用。
+
+![设置样式](/blog/assets/img/docs/WeixinApp-Font/05.png)
+
+## 参考文章
+
+[上传字体文件并进行base64转换](https://jingyan.baidu.com/article/d5a880eba54e3713f147cc91.html)
+
