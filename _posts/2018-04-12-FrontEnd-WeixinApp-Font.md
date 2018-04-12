@@ -29,7 +29,7 @@ tags: [Front-End]
 
 ## 解决步骤
 
-1. 访问 `https://transfonter.org/` 这个网站，打开 `Base64 encode` 这个开关并勾选所有字体类型，然后上传字体资源。
+1. 访问 [https://transfonter.org/](https://transfonter.org/) 这个网站，打开 `Base64 encode` 这个开关并勾选所有字体类型，然后上传字体资源。
 
 2. 下载并解压转换后的文件，将其中 `css` 文件里的代码复制添加到微信小程序对应的 `wxss` 文件中。转换后的 `base64` 编码比较长，建议放到 `wxss` 文件的最底部。
 ![添加到 wxss 文件](/blog/assets/img/docs/WeixinApp-Font/04.png)
