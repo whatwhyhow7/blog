@@ -64,6 +64,9 @@ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 #### git clone <远程仓库地址>
 这个命令的使用场景是：先在 Github 上创建好了一个远程仓库，然后直接把远程库下载到本地成为本地库，本地并不需要使用 `git init` 创建仓库。**最好的方式是就先创建远程库，然后从远程库克隆。**因为如果有多个人协作开发，那么每个人各自从远程克隆一份就可以了。实际上，Git 也支持 `https` 等其他多种协议，默认的 `git://` 使用 `ssh`。使用 `https` 除了速度慢以外，还有个最大的麻烦是每次推送都必须输入口令，但是在某些只开放 `http` 端口的公司内部就无法使用 `ssh` 协议而只能用 `https`。
 
+#### git clone <远程仓库地址> -b <分支名> <文件夹名>
+**建立分支时，推荐使用这种方法先在远程建立一个开发分支，然后直接 `clone` 该分支。**这样做的好处是不用在一个项目中来回切换 `master` 分支和开发分支。
+
 #### git remote add origin <远程仓库地址>
 这个命令的使用场景是：分别在 Github 上和本地都创建了项目仓库，需要把两者进行关联。
 
@@ -94,7 +97,7 @@ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 查看每次使用命令的记录。有过提交记录的也可以看到 `commit_id`。
 
 #### git reset `--`hard <版本号或commit_id>
-回滚到指定版本，把暂存区的修改回退到工作区。在 Git 中，用 `HEAD` 指针指向当前版本，上一个版本号是 `HEAD^`，上上一个版本号是 `HEAD^^`，第 100 个版本号是 `HEAD~100`。
+添加了 `commit_id` 是回滚到指定版本，不添加 `commit_id` 就是把工作区的所有修改回滚。在 Git 中，用 `HEAD` 指针指向当前版本，上一个版本号是 `HEAD^`，上上一个版本号是 `HEAD^^`，第 100 个版本号是 `HEAD~100`。
 
 #### git reset HEAD <文件名>
 撤销暂存区的修改，重新放回工作区。
@@ -121,9 +124,6 @@ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 
 #### git branch --set-upstream <分支名> origin/<分支名>
 建立本地分支和远程分支的关联。
-
-#### git clone <远程仓库地址> -b <分支名> <文件夹名>
-**建立分支时，推荐使用这种方法先在远程建立一个开发分支，然后直接 `clone` 该分支。**这样做的好处是不用在一个项目中来回切换 `master` 分支和开发分支。
 
 #### git branch
 列出本地库中的所有分支，当前分支前面会标一个 `*` 号。加上 `-a` 参数可以看到远程库中的其他分支。
@@ -156,3 +156,29 @@ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 
 #### git push origin `--`tags
 推送全部未推送过的本地标签到远程仓库。
+
+--- 
+
+#### 重置远程的 master 分支
+
+有时 master 分支因为某次错误的提交，即使回滚了也还有很多相应的无用的历史记录。如果想清除这些历史记录的话，那么可以使用以下命令重置远程的 master 分支：
+
+```sh
+## 1. Checkout
+git checkout --orphan latest_branch
+
+## 2. Add all the files
+git add -A
+
+## 3. Commit the changes
+git commit -am "commit message"
+
+## 4. Delete the branch
+git branch -D master
+
+## 5.Rename the current branch to master
+git branch -m master
+
+## 6.Force update repository
+git push -f origin master
+```
