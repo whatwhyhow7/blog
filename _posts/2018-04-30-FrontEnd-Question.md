@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 题目总结
+title: 前端题目整理
 tags: [Front-End]
 ---
 
@@ -66,17 +66,17 @@ function log() {
 ### 事件绑定
 
 ```js
-function addEvent(elem, type, handler) {　　
-    if (elem.addEventListener) {　　　　
-        elem.addEventListener(type, handler, false);　　
-    } else if (elem.attachEvent) {　　　　
-        elem['temp' + type + handler] = handler;　　　　
-        elem[type + handler] = function() {　　　　
-            elem['temp' + type + handler].apply(elem);　　
-        };　　
-        elem.attachEvent('on' + type, elem[type + handler]);　
-    } else {　　
-        elem['on' + type] = handler;　　
+function addEvent(elem, type, handler) {
+    if (elem.addEventListener) {
+        elem.addEventListener(type, handler, false);
+    } else if (elem.attachEvent) {
+        elem['temp' + type + handler] = handler;
+        elem[type + handler] = function() {
+            elem['temp' + type + handler].apply(elem);
+        };
+        elem.attachEvent('on' + type, elem[type + handler]);
+    } else {
+        elem['on' + type] = handler;
     }
 }
 ```
