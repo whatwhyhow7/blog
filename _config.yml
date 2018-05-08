@@ -7,9 +7,9 @@ title:               Hower Blog
 baseurl:             /blog
 
 description:         >
-  <p>About Learning.</p>
-  <p>About Work.</p>
-  <p>About Life.</p>
+  <p>代码是写给人看的，</p>
+  <p>只不过，</p>
+  <p>最后让机器执行一下。</p>
 
 # This should be the same author as first entry in `_data/authors.yml`
 author:
