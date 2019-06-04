@@ -21,6 +21,8 @@ tags: [Dev-Tool]
 
 ## 必要设置
 
+#### 设置用户名和邮箱
+
 到此 Git 环境就算基本搭建好了。不过还得先在命令行中输入以下命令进行全局设置：
 
 ```shell
@@ -30,6 +32,8 @@ git config --global user.email "your_email@example.com"
 
 这两行命令之所以有必要设置，一是因为在团队开发中自然需要体现 “我” 是谁，二是即便用 Git 仅仅作为 [Github](https://github.com/) 等其他代码托管网站的工具，不把全局的 `user.email` 设置成 [Github --> Personal settings --> Emails](https://github.com/settings/emails) 中对应的邮箱地址，Github 就无法把每次本地的提交算入 `contributions`。这个坑我是踩过的，提交了近一个月的代码后突然发现 `contributions` 居然没有增加，直到仔细阅读了 [Learn how we count contributions](https://help.github.com/articles/why-are-my-contributions-not-showing-up-on-my-profile/)。#围笑脸#
 
+#### 生成 SSH Key
+
 说到使用 Git 作为 Github 的工具了，还有一个必要的设置，那就是需要在本地生成一份 `SSH Key`。因为本地 Git 版本库和 Github 远程仓库之间的传输是通过 `SSH` 加密的，只有创建了 `SSH Key`，才可以把本地 Git 版本库的修改推送到 Github 的远程仓库。
 
 ```shell
@@ -37,6 +41,21 @@ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 ```
 
 使用上面这行命令并替换自己的邮箱地址（**不一定非要和全局设置中的邮箱地址一致**），然后一路回车使用默认值即可。如果一切顺利的话，便可以在用户主目录下的 `.ssh` 目录里找到 `id_rsa` 和 `id_rsa.pub` 两个文件。这两个就是 `SSH Key` 的秘钥对：`id_rsa` 是私钥，不能泄露出去；`id_rsa.pub` 是公钥，可以放心地告诉任何人。最后需要把 `id_rsa.pub` 里的内容填入 [Github --> Personal settings --> SSH keys](https://github.com/settings/keys) 中 "New SSH Key" 的页面里并给这个 `SSH Key` 起一个 "title"，比如说 "Company"、"Home" 等等类似可以轻易区分出是哪台电脑的 `SSH Key` 的名称。这样，凡是在 Github 中保存了对应 `SSH Key` 的机器就可以向 Github 的远程仓库推送修改了。
+
+#### 解决连接超时的问题
+
+在我们测试 Git 是否成功连接 Github 时，使用 `ssh -T git@github.com`。如果出现：`You've successfully authenticated`，那么恭喜你，连接成功可以使用了。如果出现：`ssh: connect to host github.com port 22: Connection timed out`，很遗憾，连接超时。
+
+解决方法是：进入 Git 的安装目录，找到 `/etc/ssh/ssh_config` 文件，把如下内容复制到该文件的末尾处并保存：
+
+```
+Host github.com
+User git
+Hostname ssh.github.com
+PreferredAuthentications publickey
+IdentityFile ~/.ssh/id_rsa
+Port 443
+```
 
 ## 几个概念
 
