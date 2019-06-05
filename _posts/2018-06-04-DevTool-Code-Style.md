@@ -10,20 +10,20 @@ tags: [Dev-Tool]
 ## 安装
 
 ```shell
-npm i -D eslint
-npm i -D eslint-config-prettier
-npm i -D eslint-config-standard
-npm i -D eslint-friendly-formatter
-npm i -D eslint-loader
-npm i -D eslint-plugin-html
-npm i -D eslint-plugin-import
-npm i -D eslint-plugin-node
-npm i -D eslint-plugin-prettier
-npm i -D eslint-plugin-promise
-npm i -D eslint-plugin-standard
-npm i -D husky
-npm i -D lint-staged
-npm i -D prettier
+npm i eslint -D
+npm i eslint-config-prettier -D
+npm i eslint-config-standard -D
+npm i eslint-friendly-formatter -D
+npm i eslint-loader -D
+npm i eslint-plugin-html -D
+npm i eslint-plugin-import -D
+npm i eslint-plugin-node -D
+npm i eslint-plugin-prettier -D
+npm i eslint-plugin-promise -D
+npm i eslint-plugin-standard -D
+npm i husky -D
+npm i lint-staged -D
+npm i prettier -D
 ```
 
 ## 配置
