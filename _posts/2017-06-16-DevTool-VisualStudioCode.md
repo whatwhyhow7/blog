@@ -66,6 +66,8 @@ tags: [Dev-Tool]
 
 * One Dark Pro：个人比较喜欢的一个主题插件，配色很舒服。
 
+* Shades of Purple：配色很炫酷的彩色主题。
+
 * Output Colorizer: 给控制台输出着色。
 
 * Path Intellisense：智能提示路径和目录层级，墙裂推荐。
@@ -74,7 +76,9 @@ tags: [Dev-Tool]
 
 * XML Tools：格式化 xml 文件。
 
-* vscode-icons 或 Material Icon Theme：文件图标主题。
+* Material Icon Theme：文件图标主题。
+
+* GitLens：可以查看每行代码的 Git 提交记录。
 
 ## 参考资料
 
