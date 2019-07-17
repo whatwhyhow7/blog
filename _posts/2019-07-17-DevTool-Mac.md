@@ -11,7 +11,9 @@ tags: [Dev-Tool]
 
 在 Mac 下全局安装 npm 包时，会因为默认安装目录 `/usr/local/lib/node_modules` 的权限问题报 `npm ERR! code: 'EACCES'` 的错误。
 
-虽然可以通过使用 sudo 或者改变目录权限等常规命令解决，但是不是最好的方式。我们可以通过修改 npm 全局安装包的目录解决这个问题：
+虽然可以通过使用 sudo 或者改变目录权限等常规命令解决，但是不是最好的方式。
+
+我们可以通过修改 npm 全局安装包的目录解决这个问题：
 
 1. 创建全局目录：`mkdir ~/.npm-global`
 
@@ -39,27 +41,29 @@ export CLASSPATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
 
 ## 安装 Oh My ZSH!
 
-1. 通过 `cat /etc/shells` 命令可以查看当前系统可以使用哪些 shell，通过 `echo $SHELL` 命令可以查看当前正在使用的 shell
+* 通过 `cat /etc/shells` 命令可以查看当前系统可以使用哪些 shell
 
-2. 如果当前的 shell 不是 `zsh`，可以通过 `chsh -s /bin/zsh` 命令可以将 shell 切换为 `zsh`，重启终端之后即可生效。
+* 通过 `echo $SHELL` 命令可以查看当前正在使用的 shell
 
-3. 将 shell 切换为 `zsh` 之后，我们就可以通过以下的命令安装 [Oh My ZSH!](https://ohmyz.sh/) 了：
+* 如果当前的 shell 不是 `zsh`，可以通过 `chsh -s /bin/zsh` 命令可以将 shell 切换为 `zsh`，重启终端之后即可生效。
+
+* 将 shell 切换为 `zsh` 之后，我们就可以通过以下的命令安装 [Oh My ZSH!](https://ohmyz.sh/) 了：
 
 ```shell
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
 
-4. 设置环境变量
+#### 设置环境变量
 
 在 `~/.zshrc` 中添加 `source ~/.bash_profile`， 让 `zsh` 可以使用 `bash` 下的命令，并通过 `source ~/.zshrc` 使配置生效。
 
-5. 配置 agnoster 主题
+#### 配置 agnoster 主题
 
 `Oh My ZSH!` 支持的主题有很多：[https://github.com/robbyrussell/oh-my-zsh/wiki/Themes](https://github.com/robbyrussell/oh-my-zsh/wiki/Themes)
 
 我选择使用 `agnoster` 主题：通过 `vim ~/.zshrc`，设置 `ZSH_THEME="agnoster"` 对主题进行修改，并通过 `source ~/.zshrc` 使配置生效。
 
-6. 安装配色方案和字体
+#### 安装配色方案和字体
 
 对于一般的主题，通过以上的操作就可以设置成功了。但是 `agnoster` 主题还需要安装对应的配色方案和字体。
 
