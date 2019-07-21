@@ -93,11 +93,18 @@ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/i
 "terminal.integrated.fontFamily": "Menlo for Powerline"
 ```
 
+## VS Code 设置
+
+在 Mac 的终端可以使用 `open .` 打开文件夹。如果我们想用 VS Code 打开文件夹, 用的命令是 `code .`
+
+不过得先安装 code：打开 VS Code –> command + shift + p –> 输入 shell command –> 点击 Shell Command: Install ‘code’ command in PATH 运行。
+
 ## 常用快捷键
 
 | 类型 | 快捷键 |
 | ---: | :--- |
 | 最大化、最小化窗口 | `control + command + f` |
+| 撤销 | `shift + command + z` |
 | 截图 | `shift + command + 5` |
 
 
