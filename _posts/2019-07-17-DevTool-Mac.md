@@ -104,6 +104,7 @@ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/i
 | 类型 | 快捷键 |
 | ---: | :--- |
 | 最大化、最小化窗口 | `control + command + f` |
+| 剪切、复制 | `command + c、 command + option + v` |
 | 撤销 | `shift + command + z` |
 | 截图 | `shift + command + 5` |
 
