@@ -4,7 +4,7 @@
 
 ## 主要内容
 
-关于前端、关于后端、关于开发工具，就酱。
+关于前端、关于后端、关于开发工具。
 
 - [Front-End](https://whatwhyhow7.github.io/blog/tag/front-end/)
 - [Back-End](https://whatwhyhow7.github.io/blog/tag/back-end/)
