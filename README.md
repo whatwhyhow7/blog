@@ -15,3 +15,9 @@
 使用 `jekyll` 搭建并借用了以下主题模板，特此申明并感谢：
 
 - [qwtel / hydejack](https://github.com/qwtel/hydejack/)
+
+## 本地启动
+
+```shell
+jekyll serve -w
+```
