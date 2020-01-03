@@ -1,4 +1,4 @@
-# whatwhyhow7's blog
+# whatwhyhow7's blog 🖊️
 
 这是 [@whatwhyhow7](https://whatwhyhow7.github.io/blog) 的个人技术博客。
 
